@@ -21,6 +21,7 @@ return { ...todo, completed: true };
   }
   return (
     <div>
+      <h1>parent component</h1>
        <ListItems handler={handler} todos={todos}/>
     </div>
   )
